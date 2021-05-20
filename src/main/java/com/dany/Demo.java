@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class Demo {
 	
-@GetMapping("/portada")
+@GetMapping("/Demo/Portada")
 
 public String Portada() {
-	return "portada";
+	return "Portada";
 }
 	
 }
